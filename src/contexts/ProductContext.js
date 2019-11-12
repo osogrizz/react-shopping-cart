@@ -1,4 +1,3 @@
 import { createContext } from 'react';
 
-const ContextObject = createContext();
-
+export const ProductContext = createContext();
