@@ -11,7 +11,6 @@ const ShoppingCart = () => {
 			return acc + value.price;
 		}, 0).toFixed(2);
 	};
-	console.log(cart)
 	return (
 		<div className="shopping-cart">
 			{console.log(cart)}

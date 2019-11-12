@@ -8,7 +8,6 @@ const Products = () => {
 	const {products, id, addItem} = useContext(ProductContext);
 	return (
 		<div className="products-container">
-			 {console.log(products)}
 			{products.map(product => (
 				<Product
 					key={id}
